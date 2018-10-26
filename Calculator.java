@@ -10,6 +10,8 @@ public class Calculator extends Applet implements ActionListener{
 
 	public void init(){
 
+		initiallization();
+		
 		add(dnum1);
 		add(num1);
 		add(dnum2);
@@ -23,7 +25,7 @@ public class Calculator extends Applet implements ActionListener{
 	}
 
 	private void initiallization(){
-		
+
 		dnum1 = new Label("num 1");
 		dnum2 = new Label("num 2");
 		dans = new Label("ans");
